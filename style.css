@@ -1,0 +1,230 @@
+/* 全局樣式 */
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 頁眉樣式 */
+header {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+/* 頁眉標題樣式 */
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  position:absolute;
+  top:200px;
+  font-size: 64px;
+  margin: 0;
+}
+
+/* 頁面區塊樣式 */
+
+.Introduction{
+  width: 1000px;
+  margin: 50px auto;
+  background-color: #FFD382;
+  overflow: hidden; /* 避免長方框下面顯示不正常 */
+}
+
+.myphoto{
+  float:left; /* 圖片在左邊 */
+}
+
+.myphoto img{
+  display: block;
+  vertical-align: middle;
+}
+
+.Introductiontext{
+  float: right;  /* 文字在右邊 */
+  width: 430px;
+  position:absolute;
+  top:400px;
+  font-size: 18px;
+  right:500px;
+}
+.Introductionhead{
+  float: right;  /* 文字在右邊 */
+  width: 430px;
+}
+
+.skill{
+  width: 1000px;
+  margin: 50px auto;
+  background-color: #FFFF8C;
+  position: relative;
+  overflow: hidden; /* 避免長方框下面顯示不正常 */
+}
+.skillheader{ 
+  background-color: #87cefa;
+  width: 450px;
+  height:400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillheadertext{
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.skillcontent{
+  float: right;  /* 文字在右邊 */
+  width: 430px;
+  position:absolute;
+  top:50px;
+  left:575px;
+}
+
+.skillcontent2{
+  float: right;  /* 文字在右邊 */
+  width: 430px;
+  position:absolute;
+  top:50px;
+  left:775px;
+}
+
+.skillcontent3{
+  float: right;  /* 文字在右邊 */
+  width: 430px;
+  position:absolute;
+  top:200px;
+  left:575px;
+}
+
+.skillcontent4{
+  float: right;  /* 文字在右邊 */
+  width: 430px;
+  position:absolute;
+  top:200px;
+  left:775px;
+}
+
+.Education{
+  width: 1000px;
+  margin: 50px auto;
+  background-color: #FFD382;
+  position: relative;
+  overflow: hidden; /* 避免長方框下面顯示不正常 */
+}
+
+.educationheater{ 
+  background-color: #ffa500;
+  float: right;
+  width: 450px;
+  height:480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.educationheatertext{
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.EducationUnversity{
+  position:absolute;
+  width: 430px;
+  top:50px;
+  left:100px;
+}
+
+.Educationhighschool{
+  position:absolute;
+  width: 430px;
+  top:150px;
+  left:100px;
+}
+
+.Educationsecondary{
+  position:absolute;
+  width: 430px;
+  top:250px;
+  left:100px;
+}
+
+.Educationprimaryschool{
+  position:absolute;
+  width: 430px;
+  top:350px;
+  left:100px;
+}
+
+
+.Project{
+  width: 1000px;
+  margin: 50px auto;
+  background-color: #FFFF8C;
+  position: relative;
+  overflow: hidden; /* 避免長方框下面顯示不正常 */
+}
+.Projectheader{ 
+  background-color: #008A8A;
+  width: 450px;
+  height:550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Projectheadertext{
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.accordion {
+  position:absolute;
+  top:50px;
+  right:50px;
+  width:450px;
+}
+    
+.item {
+  color: #ffffff;
+  background-color: #008A8A;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+}
+    
+.content {
+  display: none;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/* 頁面區塊標題樣式 */
+h2 {
+  color: #333;
+}
+
+/* 作品集區塊樣式 */
+#portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* 頁尾樣式 */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
