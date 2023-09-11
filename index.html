@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自我介紹網站</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 align="left">Kevin Shen</h1>
+  </header>
+  
+  <section>
+    <div class="Introduction">
+      <div class="myphoto">
+        <img src="image/me.jpg" width="450" height="600"/>
+      </div>
+      <div class="Introductionhead">
+        <h3>Hello<br> I am Kevin</h3>
+      </div>
+      <div class="Introductiontext">
+        <p>我是沈啓文,我熱愛寫程式,有專題開發App的經驗,我的興趣是下棋與玩桌遊,從中可以增進自己的邏輯與思考能力,讓自己可以解決各種難題,除了讓自己有所成長外,也能夠運用在日常生活上。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="skill">
+      <div class="skillheader">
+        <span class="skillheadertext">Skill</span>
+      </div>
+      <div class="skillcontent">
+        <div class="androidicon">
+          <img src="image/android icon.png" width="100" height="100"/>
+        </div>
+        <div class="androidtext">
+          <p>android studio</p>
+        </div>
+      </div>
+      <div class="skillcontent2">
+        <div class="javaicon">
+          <img src="image/JAVAicon.jpg" width="100" height="100"/>
+        </div>
+        <div class="javatext">
+          <p>&ensp;&ensp;&ensp;&ensp;java</p>
+        </div>
+      </div>
+      <div class="skillcontent3">
+        <div class="javaicon">
+          <img src="image/c++icon.png" width="100" height="100"/>
+        </div>
+        <div class="c++text">
+          <p>&ensp;&ensp;&ensp;&ensp;C++</p>
+        </div>
+      </div>
+      <div class="skillcontent4">
+        <div class="javaicon">
+          <img src="image/htmlicon.jpeg" width="100" height="100"/>
+        </div>
+        <div class="c++text">
+          <p>&ensp;&ensp;&ensp;&ensp;HTML</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="Education">
+      <div class="educationheater">
+        <span class="educationheatertext">Education</span>
+      </div>
+      <div class="EducationUnversity">
+        <h2>大學</h2>
+        <p>中國文化大學 資訊工程學系 學士</p>
+      </div>
+      <div class="Educationhighschool">
+        <h2>高中</h2>
+        <p>私立徐匯高級中學 高中部</p>
+      </div>
+      <div class="Educationsecondary">
+        <h2>國中</h2>
+        <p>私立徐匯高級中學 國中部</p>
+      </div>
+      <div class="Educationprimaryschool">
+        <h2>小學</h2>
+        <p>新北市立正義國民小學</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="Project">
+      <div class="Projectheader">
+        <span class="Projectheadertext">Project</span>
+      </div>
+      <div class="accordion">
+        <div class="item" onclick="toggleItem(1)">大學專題-自動比例飲料機</div>
+        <div class="content" id="item1">
+          <p>
+            <strong>2022/1~2022/12</strong>
+          </p>
+          <p>團隊人數-3人</p>
+          <p>機器技術-arduino、esp32、firebase</p>
+          <p>App-android studio、java</p>
+          <p>工作內容-主要負責製作控制機器的app,app功能主要有發送飲料資料給機器,登入註冊功能,調飲歷史紀錄與最愛,提醒使用者補充飲料。</p>
+          <p>專案簡介-與朋友聚會中，常會有調飲、調酒的時候，但是常常調出來的飲品往往不如預期，為了避免浪費資源，在經過研究與討論，製作出了自動比例飲料機，自動比例飲料機利用程式設計、重量感測與蠕動馬達的搭配，能自行調整想要的比例，達成完美的調飲比例，以減少人為的疏失。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="https://www.facebook.com/profile.php?id=100001960311190"><img src="image/FB.png" width="30" height="30"></a><a href="https://www.instagram.com/kevin891023/"><img src="image/IG.jpg" width="30" height="30" style="padding-left:40px;"></a><a href="mailto:abc@gmail.com"><img src="image/email.jpg" width="30" height="30" style="padding-left:40px;"></a></p>
+  </footer>
+
+
+  <script>
+    function toggleItem(itemNumber) {
+      var content = document.getElementById('item' + itemNumber);
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+      } else {
+        content.style.display = 'none';
+      }
+    }
+  </script>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
+    
